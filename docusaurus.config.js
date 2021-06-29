@@ -11,7 +11,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon-32x32.png',
   organizationName: 'DecryptMedia', // Usually your GitHub org/user name.
-  projectName: 'decrypt-docs', // Usually your repo name.
+  projectName: 'decryptmedia.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Decrypt Docs',
@@ -27,7 +27,7 @@ module.exports = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/DecryptMedia/decrypt-docs',
+          href: 'https://github.com/DecryptMedia/decryptmedia.github.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -87,7 +87,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/DecryptMedia/decrypt-docs/edit/master/',
+            'https://github.com/DecryptMedia/decryptmedia.github.io/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
