@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
+/*
 const FeatureList = [
   {
     title: 'Easy to Use',
@@ -34,6 +35,7 @@ const FeatureList = [
     ),
   },
 ];
+*/
 
 function Feature({Svg, title, description}) {
   return (
@@ -50,15 +52,16 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
+  return null;
+  /*
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <h1>Welcome</h1>
         </div>
       </div>
     </section>
   );
+  */
 }

@@ -3,31 +3,31 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Decrypt Docs',
+  tagline: 'Documentation for Decrypt Media, Inc',
+  url: 'https://decrypt.co',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/favicon-32x32.png',
+  organizationName: 'DecryptMedia', // Usually your GitHub org/user name.
+  projectName: 'decrypt-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Decrypt Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Decrypt Logo',
+        src: 'img/decrypt-mark.png',
       },
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'token-faq',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/DecryptMedia/decrypt-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -40,8 +40,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Token FAQ',
+              to: '/docs/token-faq',
             },
           ],
         },
@@ -49,16 +49,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Snapshot',
+              href: 'https://snapshot.org/#/decrypt-media.eth',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://decrypt.co/discord-invite',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/decryptmedia',
             },
           ],
         },
@@ -67,12 +67,12 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/DecryptMedia',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Decrypt Media, Inc. A media company for the Web 3.0 age.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -87,7 +87,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/DecryptMedia/decrypt-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
