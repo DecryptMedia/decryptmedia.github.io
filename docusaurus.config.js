@@ -8,6 +8,7 @@ module.exports = {
   url: 'https://decrypt.co',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  trailingSlash: 'true',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon-32x32.png',
   organizationName: 'DecryptMedia', // Usually your GitHub org/user name.
