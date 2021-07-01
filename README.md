@@ -26,8 +26,11 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
+Pushes to `master` or pull requests into `master` automatically trigger a Github action
+that builds the documentation and deploys it to `gh-pages` branch.
+
+It shouldn't be necessary, but if you want to manually deploy code to `gh-pages` branch:
+
 ```console
 GIT_USER=<Your GitHub username> DEPLOYMENT_BRANCH=gh-pages USE_SSH=true npm deploy
 ```
-
-We're using GitHub pages to host this site, so make sure to set the deployment deploy to `gh-pages`, as above.
