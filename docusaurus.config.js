@@ -63,7 +63,7 @@ module.exports = {
             },
             {
               label: 'Snapshot',
-              href: 'https://snapshot.org/#/decrypt-media.eth',
+              href: 'https://vote.decrypt.co',
             },
             {
               label: 'GitHub',
