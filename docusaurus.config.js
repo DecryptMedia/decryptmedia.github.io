@@ -67,7 +67,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/DecryptMedia',
+              href: 'https://github.com/DecryptMedia/decryptmedia.github.io',
             },
             {
               label: 'Help',
