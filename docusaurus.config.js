@@ -3,9 +3,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Decrypt Docs',
-  tagline: 'Documentation for Decrypt Media, Inc',
-  url: 'https://decrypt.co',
+  title: 'Decrypt Support Docs',
+  tagline: "Support documentation for Decrypt's applications, token, and community.",
+  url: 'https://docs.decrypt.co',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   trailingSlash: 'true',
@@ -15,7 +15,7 @@ module.exports = {
   projectName: 'decryptmedia.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Decrypt Docs',
+      title: 'Decrypt',
       logo: {
         alt: 'Decrypt Logo',
         src: 'img/decrypt-mark.png',
@@ -23,9 +23,9 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'token-faq',
+          docId: 'decrypt-token/faq',
           position: 'left',
-          label: 'Documentation',
+          label: 'Docs',
         },
         {
           href: 'https://github.com/DecryptMedia/decryptmedia.github.io',
@@ -41,8 +41,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Token FAQ',
-              to: '/docs/token-faq',
+              label: 'Decrypt Token',
+              to: '/docs/decrypt-token/faq',
+            },
+            {
+              label: 'Mobile App',
+              to: '/docs/mobile-app/faq',
+            },
+            {
+              label: 'Community Resources',
+              to: '/docs/community-resources',
             },
           ],
         },
@@ -50,16 +58,20 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Snapshot',
-              href: 'https://snapshot.org/#/decrypt-media.eth',
-            },
-            {
               label: 'Discord',
               href: 'https://decrypt.co/discord-invite',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/decryptmedia',
+              label: 'Snapshot',
+              href: 'https://snapshot.org/#/decrypt-media.eth',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/DecryptMedia',
+            },
+            {
+              label: 'Help',
+              href: '/docs/community-resources',
             },
           ],
         },
@@ -67,9 +79,34 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/DecryptMedia',
+              label: 'Decrypt News',
+              href: 'https://decrypt.co',
             },
+            {
+              label: 'Decrypt Learn',
+              href: 'https://decrypt.co/learn',
+            },
+            {
+              label: 'About Decrypt',
+              href: 'https://decrypt.co/about-us',
+            },
+          ],
+        },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Terms',
+              href: 'https://decrypt.co/terms-of-service',
+            },
+            {
+              label: 'Privacy',
+              href: 'https://decrypt.co/privacy',
+            },
+            {
+              label: 'Disclosures',
+              href: 'https://decrypt.co/financial-disclosures',
+            }
           ],
         },
       ],
@@ -80,6 +117,7 @@ module.exports = {
       darkTheme: darkCodeTheme,
     },
   },
+  plugins: ['@docusaurus/plugin-ideal-image'],
   presets: [
     [
       '@docusaurus/preset-classic',
