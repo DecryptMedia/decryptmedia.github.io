@@ -101,7 +101,7 @@ module.exports = {
             },
             {
               label: 'Privacy',
-              href: 'https://decrypt.co/privacy',
+              href: 'https://decrypt.co/privacy-policy',
             },
             {
               label: 'Disclosures',
