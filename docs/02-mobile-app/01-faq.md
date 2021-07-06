@@ -17,7 +17,6 @@ There, you'll find updated information in real time and get answers from the com
 
 * If you are trying to enter an email account and the creation button is inactive, please double-check  that you input your address correctly.
 * If you've already created an account, you're in the wrong place. Go back to the Log In option on the Menu and access your wallet that way.
- * You're trying to create an account in locales that are not currently supported, such as the UK.
  * You're trying to log into a wallet suspected of fraud. (Go to the Discord channel to dispute this.)
  * You have multiple accounts on one device, which is against our policy. Remove all but one account and try again.
 
