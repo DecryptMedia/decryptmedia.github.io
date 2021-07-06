@@ -1,8 +1,10 @@
 ---
-sidebar_label: FAQ
+sidebar_label: '[Deprecated] FAQ'
 ---
 
-# Decrypt Token FAQ
+# [Deprecated] Decrypt Token FAQ
+
+**This FAQ is out of date. Please see the [migration FAQ](/docs/decrypt-token/migration-faq) for up-to-date answers on what comes next for the Decrypt token.**
 
 Here you can find answers to the most common questions about the Decrypt Token—from getting started to how it works, why we built it, and what the future might hold.
 

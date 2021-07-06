@@ -23,7 +23,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'decrypt-token/faq',
+          docId: 'decrypt-token/migration-faq',
           position: 'left',
           label: 'Docs',
         },
@@ -42,7 +42,7 @@ module.exports = {
           items: [
             {
               label: 'Decrypt Token',
-              to: '/docs/decrypt-token/faq',
+              to: '/docs/decrypt-token/migration-faq',
             },
             {
               label: 'Mobile App',
