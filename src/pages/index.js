@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/decrypt-token/faq">
+            to="/docs/decrypt-token/migration-faq">
             Decrypt Token
           </Link>
           <Link

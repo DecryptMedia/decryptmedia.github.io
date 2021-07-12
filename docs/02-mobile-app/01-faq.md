@@ -4,10 +4,21 @@ sidebar_label: FAQ
 
 # Mobile App FAQ
 
+**Important! READ THIS FIRST:**
+
+First, make sure to upgrade to v3 of the app.
+
+v3 is a major upgrade as it moves the app away from the OST platform.  While the OST platform is still available, you will be able to access OST wallet settings under "Legacy wallet" section.
+
+If you are not able to re-authenticate your Device under OST wallet settings, don't worry. We will use token balances associated with verifed Decrypt accounts. If you have a balance, You will not need an authenticed OST wallet to particiate in the claim process.
+
+## Legacy v2 Mobile App FAQ
+
 This page attempts to answer as comprehensively as possible the most commonly asked questions we've encountered from users who've reported problems to us.
 
 If you still can't find a solution to your problem, please join our Discord server using [this link](https://decrypt.co/discord-invite). 
 There, you'll find updated information in real time and get answers from the community. Depending on the time of day, the channel is also staffed with moderators who can help you.
+
 
 ## Creating a Wallet
 

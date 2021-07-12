@@ -4,6 +4,12 @@ sidebar_label: Migration FAQ
 
 # Migration FAQ
 
+### I can't re-authenticate my device under OST wallet settings in the mobile app. Will I be able to participate in the claims process?
+
+We will use token balances associated with verifed Decrypt accounts for the migration claim process. If you have a balance and meet the eligibility criteria, you will not need an authenticed OST wallet device to particiate in the claim process.
+
+First, make sure you've upgraded to at least v3 of the mobile application. v3 is a major upgrade as it moves the app away from the OST platform.
+
 ### What will happen to my DCPT tokens and my OST wallet in the Decrypt App after Season 1?
 
 We have decided to forgo a new Season 2 and instead create a new ERC-20 token and new protocol.
