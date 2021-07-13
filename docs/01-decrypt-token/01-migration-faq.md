@@ -4,6 +4,16 @@ sidebar_label: Migration FAQ
 
 # Migration FAQ
 
+### What's happening?
+
+In the first "season" of our DCPT token, we saw 74,000+ wallets activated. Next, we're launching a broader protocol and converting to an ERC-2O token.
+
+You can read the migration announcement [here](https://decrypt.co/75352/decrypt-reader-token-what-comes-next).
+
+### How do I stay up-to-date on changes and new developments?
+
+We recommend you join our [Discord server](decrypt.co/discord-invite), watch for new documentation on this website ([docs.decrypt.co](https://docs.decrypt.co)) and read the ["Our Company"](decrypt.co/news/decrypt) section of the News site.
+
 ### I can't re-authenticate my device under OST wallet settings in the mobile app. Will I be able to participate in the claims process?
 
 We will use token balances associated with verifed Decrypt accounts for the migration claim process. If you have a balance and meet the eligibility criteria, you will not need an authenticed OST wallet device to particiate in the claim process.
