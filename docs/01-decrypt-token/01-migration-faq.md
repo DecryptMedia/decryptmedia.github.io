@@ -16,7 +16,7 @@ We recommend you join our [Discord server](https://decrypt.co/discord-invite), w
 
 ### I can't re-authenticate my device under OST wallet settings in the mobile app. Will I be able to participate in the claims process?
 
-We will use token balances associated with verifed Decrypt accounts for the migration claim process. If you have a balance and meet the eligibility criteria, you will not need an authenticed OST wallet device to particiate in the claim process.
+We will use token balances associated with verifed Decrypt accounts for the migration claim process. If you have a balance and meet the eligibility criteria, you will not need an authenticated OST wallet device to particiate in the claim process.
 
 First, make sure you've upgraded to at least v3 of the mobile application. v3 is a major upgrade as it moves the app away from the OST platform.
 
