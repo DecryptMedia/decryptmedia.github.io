@@ -20,6 +20,16 @@ After the token migration dapp is live and we've given token holders ample time 
 
 The token migration dapp will go live soon. When it does, you will be able to access it at [decrypt.co/token-status](https://decrypt.co/token-status) after first logging into the Decrypt.co website with the same email you used for the Decrypt mobile app.
 
+### Can I claim my ERC-20 tokens now?
+
+Not yet—you will be able to claim your tokens once we deploy the distribution contract. First, we need to collect Ethereum addresses for readers who have a DCPT balance. Make sure to link your ETH wallet address before the distribution, if you have not already done so.
+
+### Why do I need to link my ETH wallet address?
+
+You must link an Ethereum wallet address to be eligible to claim your share of our new ERC-20 governance token based on your participation in Season 1 and the DCPT you earned.
+
+The address you link we will be included in the distribution contract used for the claims process. If you do not link an Ethereum address, you will not be able to claim your tokens once the distribution contract is live.
+
 ### How do I stay up-to-date on changes and new developments?
 
 We recommend you join our [Discord server](https://decrypt.co/discord-invite), watch for new documentation on this website ([docs.decrypt.co](https://docs.decrypt.co)) and read the ["Our Company"](https://decrypt.co/news/decrypt) section of the News site.
