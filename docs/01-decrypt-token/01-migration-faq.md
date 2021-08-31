@@ -16,7 +16,7 @@ We are finalizing token allocation plans for our ERC-20 governance token. This t
 
 **To be eligible for the claims process, you must link a beneficiary Ethereum wallet address with your Decrypt account through the token migration dapp on the Decrypt website.**
 
-After the token migration dapp is live and we've given token holders ample time to link a beneficiary address, we will deploy a distribution contract that grants linked beneficiary addresses a claim credit for the new ERC-20 token. We are exploring options to deploy this contract on both Ethereum mainnet and sidechains such as Polygon for better gas efficiency.
+After the token migration dapp is live and we've given token holders ample time to link a beneficiary address, we will deploy a distribution contract that grants linked beneficiary addresses a claim credit for the new ERC-20 token. We are exploring options to deploy this contract on both Ethereum mainnet and sidechains such as Polygon for better gas efficiency. The Ethereum beneficiary address you linke will work on both Ethereum mainnet and Polygon, if we go that route.
 
 The token migration dapp will go live soon. When it does, you will be able to access it at [decrypt.co/token-status](https://decrypt.co/token-status) after first logging into the Decrypt.co website with the same email you used for the Decrypt mobile app.
 
