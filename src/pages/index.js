@@ -13,6 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className="spacer"></div>
         <h2>Quick Start Guides</h2>
         <div className={styles.buttons}>
           <Link
@@ -24,6 +25,11 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/mobile-app/faq">
             Mobile App
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/website/faq">
+            Website
           </Link>
           <Link
             className="button button--secondary button--lg"

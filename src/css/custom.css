@@ -8,10 +8,23 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #3578e5;--ifm-color-primary-dark: #1d68e1;--ifm-color-primary-darker: #1b62d4;--ifm-color-primary-darkest: #1751af;--ifm-color-primary-light: #4e89e8;--ifm-color-primary-lighter: #5a91ea;--ifm-color-primary-lightest: #80aaef;
-
+  --ifm-color-hero-background: #FFFFFF;
+  --ifm-color-hero-text: #1C1E21;
   --ifm-code-font-size: 95%;
 }
 
 html[data-theme='dark'] {
   --ifm-color-primary: #4e89e8;  --ifm-color-primary-dark: #5a91ea;
+  --ifm-color-hero-background: #1C1E21;
+  --ifm-color-hero-text: #FFFFFF;
+}
+
+.spacer {
+  height: 2rem;
+  width: 100%;
+}
+
+.hero--primary {
+  color: var(--ifm-color-hero-text);
+  background-color: var(--ifm-color-hero-background);
 }

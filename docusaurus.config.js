@@ -49,6 +49,10 @@ module.exports = {
               to: '/docs/mobile-app/faq',
             },
             {
+              label: 'Website',
+              to: '/docs/website/faq',
+            },
+            {
               label: 'Community Resources',
               to: '/docs/community-resources',
             },
@@ -59,7 +63,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://decrypt.co/discord-invite',
+              href: 'https://decrypt.community',
             },
             {
               label: 'Snapshot',
